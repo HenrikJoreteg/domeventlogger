@@ -42,6 +42,10 @@ img.src = "http://myawesomeimage.com";
 
 ```
 
+## Example
+
+![screen shot](https://dsz91cxz97a03.cloudfront.net/lQjAH80DlH-1200x1200.png)
+
 ## Why? 
 
 New browser APIs don't always have perfect up-to-date docs. And sometimes you're not exactly sure the order in which things are firing. This can make it easier to debug.
