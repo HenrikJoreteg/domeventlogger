@@ -1,0 +1,21 @@
+{
+  "name": "domeventlogger",
+  "version": "0.1.0",
+  "description": "Util for discovering events being emitted by browser apis and dom nodes",
+  "main": "domeventlogger.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HenrikJoreteg/domeventlogger.js"
+  },
+  "keywords": [
+    "browser",
+    "browserify",
+    "dom",
+    "events"
+  ],
+  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "2.x"
+  }
+}
