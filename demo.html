@@ -7,7 +7,11 @@
         <img id="myImage" class="some class thing"/>
         <script src="domeventlogger.bundle.js"></script>
         <script>
-            var img = domEventLogger(document.getElementById('myImage'));
+        	var img = document.getElementById('myImage');
+        	img.onload = function () {
+        		console.log('existing handler');
+        	};
+        	domEventLogger(img);
             img.src = 'http://khonsa01.files.wordpress.com/2008/12/google_cat_nap2.jpg';
         </script>
     </body>

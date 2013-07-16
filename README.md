@@ -4,6 +4,8 @@
 
 A tiny browser module for discovering what events are actually being fired by an object in the browser. Especially useful for discovering available 'hooks' for new-ish browser APIs like MediaStreams or PeerConnections.
 
+It does this without overwriting an existing handlers you may have already registered.
+
 Suitable for use with browserify/CommonJS on the client. 
 
 If you're not using browserify or you want AMD support use `domeventlogger.bundle.js`.
